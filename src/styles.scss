@@ -1,3 +1,14 @@
 @import 'styles-config';
 @import '@spartacus/styles/index';
 @import './styles/spartacus/custom-scss/index';
+
+html, head, main, body, a, img, button, label, li, ul, div, span, nav {
+  font-family: var(--font-family-primary), var(--font-family-secundary);
+  color: var(--cx-color-blue);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-primary), var(--font-family-secundary);
+  color: var(--cx-color-blue);
+}
+
